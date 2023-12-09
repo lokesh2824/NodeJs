@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const connect = mongoose.connect("mongodb://127.0.0.1:27017/test1");
+const connect = mongoose.connect("mongodb+srv://lokesh:lokesh@cluster0.ee80gah.mongodb.net/task1?retryWrites=true&w=majority");
 // mongodb://localhost:27017
 
 connect.then(()=>{
