@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const connect = mongoose.connect("mongodb://localhost:27017/test1");
+const connect = mongoose.connect("mongodb://0.0.0.0:27017/test1");
 // mongodb://localhost:27017
 // mongodb://localhost:27017
 
